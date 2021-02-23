@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02_23_과제</title>
+    <!-- icons -->
+    <!-- <link rel="stylesheet" href="./icon/css/font-awesome.css"> -->
+    <script src="./icon/fontawesome.js"></script>
+    
+    <!-- reset.css style.css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- 오픈소스 jQuery 1.12.4 -->
+    <script src="./js/lib/jquery.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header" class='clearfix'>
+            <span class="logo-wrap"></span>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#" onclick='goUrl("main1")' class="main-btn">COLLECTION</a>
+                        <div class="sub sub1">
+                            <ul>
+                                <li><a href="javascript:" onclick='goUrl("main1-1")' class="sub-btn">2021 S/S Milano</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main1-2")' class="sub-btn">2021 S/S London</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main1-3")' class="sub-btn">2021 S/S NewYork</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main1-4")' class="sub-btn">2021 S/S Paris</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick='goUrl("main2")' class="main-btn" class="main-btn">ABOUT</a>
+                        <div class="sub sub2">
+                            <ul>
+                                <li><a href="javascript:" onclick='goUrl("main2-1")' class="sub-btn">Information</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main2-2")' class="sub-btn">Designer</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main2-3")' class="sub-btn">History</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main2-4")' class="sub-btn">Brand</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick='goUrl("main3")' class="main-btn" class="main-btn">CLOTHES-SHOP</a>
+                        <div class="sub sub3">
+                            <ul>
+                                <li><a href="javascript:" onclick='goUrl("main3-1")' class="sub-btn">Outer</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main3-2")' class="sub-btn">Top</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main3-3")' class="sub-btn">Bottom</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main3-4")' class="sub-btn">Acc</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick='goUrl("main4")' class="main-btn" lass="main-btn">BEAUTY-SHOP</a>
+                        <div class="sub sub4">
+                            <ul>
+                                <li><a href="javascript:" onclick='goUrl("main4-1")' class="sub-btn">PERFUME</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main4-2")' class="sub-btn">SKINCARE</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main4-3")' class="sub-btn">MAKEUP</a></li>
+                                <li><a href="javascript:" onclick='goUrl("main4-4")' class="sub-btn">NAIL</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main" class='clearfix'>
+            <section id="section1">
+                <div class="slide-container">
+                    <div class="slide-view">
+                        <ul class="slide-wrap">
+                            <li class="slide slide3"></li>
+                            <li class="slide slide0"></li>
+                            <li class="slide slide1"></li>
+                            <li class="slide slide2"></li>
+                            <li class="slide slide3"></li>
+                            <li class="slide slide0"></li>
+                        </ul>
+                    </div>
+                    <!-- 좌우 화살버튼 -->
+                    <span class="prev-btn-wrap"><a href="#" class="prev-btn"></a></span>
+                    <span class="next-btn-wrap"><a href="#" class="next-btn"></a></span>
+                </div>
+            </section>
+            <section id="section2" class='clearfix'>
+                <div class="column column1">
+                    <div class="gap">
+                        <div class="notice-title">
+                            <ul class="clearfix">
+                                <li>
+                                    <h2>CHANEL NEWS</h2>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" onclick='goUrl("noticeMore")' target='_self'  title="more"><img src="./img/more.jpg" alt="more"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="notice-content">
+                            <ul>
+                                <li>
+                                    <span><a href="#" class="notice-btn" title='제36회 프랑스 ‘음악의 승리상(Victoires de la Musique)’ 시상식에서 여배우이자 뮤지션, 하우스 앰배서더인 바네사 파라디가 제인 버킨의 헌정 무대에서 샤넬 2020/21 가을-겨울 오뜨 꾸뛰르 컬렉션의 트위드 룩을 착용했습니다.제36회 프랑스 ‘음악의 승리상(Victoires de la Musique)’ 시상식에서 여배우이자 뮤지션, 하우스 앰배서더인 바네사 파라디가 제인 버킨의 헌정 무대에서 샤넬 2020/21 가을-겨울 오뜨 꾸뛰르 컬렉션의 트위드 룩을 착용했습니다.'>바네사 파라디
+                                        ‘VICTOIRES DE LA MUSIQUE’ 에서</a></span>
+                                    <span>2021-02-17</span>
+                                </li>
+                                <li>
+                                    <span><a href="#" class="notice-btn" title='샤넬은 춤의 세계와의 생동감 넘치는 영원한 연계를 기념하며 우드키드의 음악을 배경으로 한 시디 라르비 셰르카위의 현대 안무 창작 Exposure의 의상을 상상했습니다. 사진 스튜디오의 분위기를 연상시키는 흑백 세팅에서 의상은 본질적인 샤넬의 매력을 구현합니다. 유동적이고 순수하게, 그들은 맡은 역할을 연기하며 각각의 제스처를 강조합니다.'>예술의 움직임으로서의 무용
+                                        그리고 자유의 비유</a></span>
+                                    <span>2021-02-16</span>
+                                </li>
+                                <li>
+                                    <span><a href="#" class="notice-btn" title='2021 댄스 시즌의 첫 번째 퍼포먼스에 발렌타인 콜라산데와 휴고 마천드, 두 명의 에투왈 댄서들이 샤넬 버지니 비아르의 지휘 아래 특별하게 만들어진 의상을 착용했습니다. 르사주 하우스의 공방에서 수작업으로 섬세하게 수놓은 천상의 시적인 분위기는 남성적이면서 여성적인 실루엣을 함께 보여줍니다. 두 개의 꿈같은 의상은 빅토르 그소브스키가 안무를 맡은 유명한 파 드 되 그랑 클래식의 시대를 초월하는 마법을 재개합니다.'>샤넬과 무용
+                                        파리 국립 오페라단의 오프닝 갈라</a></span>
+                                    <span>2021-02-15</span>
+                                </li>
+                                <li>
+                                    <span><a href="#" class="notice-btn" title='무용은 샤넬 유산의 핵심입니다: 발레 뤼스의 창립자, 세르게이 디아길레프의 친구이자 후원자였던 가브리엘 샤넬은 1924년 Le Train Bleu를 비롯하여 발레를 위한 의상들을 만들며 그녀의 비전을 투영했습니다.'>샤넬
+                                        파리 오페라 발레의 후원자</a></span>
+                                    <span>2021-02-14</span>
+                                </li>
+                                <li>
+                                    <span><a href="#" class="notice-btn" title='여성스러운 실루엣은 미드나잇 블루 실크 벨벳의 뷔스티에와 스팽글, 비즈, 스타라스로 별자리가 수놓아진 딥 블루 음영의 블랙 튤의 빳빳한 감의 튀튀로 구성되어 별이 빛나는 하늘을 연상시킵니다. '>
+                                        정확성과 움직임 오프닝 갈라 의상</a></span>
+                                    <span>2021-02-14</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column column2">
+                    <div class="gap">
+                        <div class="gallery-wrap">
+                            <ul>
+                                <li>
+                                    <div> 
+                                       <a href="#" class="gallery-btn" title='gallery'></a> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-btn" title='gallery'></a> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-btn" title='gallery'></a> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-btn" title='gallery'></a> 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column column3">
+                    <div class="gap">
+                        <div class="banner-wrap">
+                            <ul>
+                                <li>
+                                    <div> 
+                                       <a href="#" class="banner-btn" title='banner'></a> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="banner-btn" title='banner'></a> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="banner-btn" title='banner'></a> 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class='clearfix'>
+            <div class="left-box"></div>
+            <div class="right-box" class='clearfix'>
+                <div class="sns-wrap">
+                    <div class="gap">
+                        <span>
+                            <a href="https://www.instagram.com/chanelofficial/" target='_blank'  title="instagram">
+                                <img src="./img/insta_icon.jpg" alt="more">
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://www.youtube.com/user/chanel/custom" target='_blank'  title="youtube" class="sns-btn">
+                                <img src="./img/youtube_icon.jpg" alt="more">
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://twitter.com/CHANEL" target='_blank'  title="twitter" class="sns-btn">
+                                <img src="./img/twitter_icon.jpg" alt="more">
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://www.facebook.com/ChanelKR/" target='_blank'  title="facebook" class="sns-btn">
+                                <img src="./img/facebook_icon.jpg" alt="more">
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="famliy-wrap">
+                    <div class="gap">
+                        <form name="familyForm" id="familyForm" method="" action="response.php">
+                            <select name="family" id="family" onchange="goFamily(familyForm.family.value);">
+                                <option value="">FAMLIY SITE</option>
+                                <option value="https://www.chanel.com/ko_KR/fashion.html">CHANEL KOREA</option>
+                                <option value="https://www.chanel.com/ko_KR/fashion/haute-couture/spring-summer-2021.html">CHANEL FASHIONSHOW</option>
+                                <option value="https://www.chanel.com/ko_KR/fragrance-beauty/home.html">CHANEL BEAUTY</option>
+                                <option value="https://www.chanel.com/ko_KR/fashion/products/small-leather-goods.html#storelocator/fsh">OFFLINE STORE</option>
+                                <option value="https://www.fendi.com/kr/?utm_source=Naver&utm_medium=cpc&utm_campaign=Brandzone_SS21&utm_content=PC_Homelink&utm_term=%ED%8E%9C%EB%94%94">FENDI KOREA</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+<!-- 모달창(레이어 팝업창) 공지사항 -->
+<div id="modal">
+    <div class="gap">
+        <div class="content">
+            <h1 class='notice-text'></h1>
+        </div>
+    </div>   
+</div>
+<!-- 모달창(레이어 팝업창) 갤러리 -->
+<div id="modalGallery">
+    <div class="gap">
+        <div class="content-gallery">
+            
+        </div>
+    </div>   
+</div>
+
+<script src="./js/intro.js"></script>
+</body>
+</html>
